@@ -18,8 +18,10 @@ import { Fragment, useEffect } from "react";
 import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+const Index = () => {
+  useEffect(() => {
+    jqueryFuntion();
+  });
   return (
     <Fragment>
       <div className="page-content">
@@ -46,5 +48,6 @@ export default function Home() {
         <ScrollBar />
       </div>
     </Fragment>
-  )
-}
+  );
+};
+export default Index;
