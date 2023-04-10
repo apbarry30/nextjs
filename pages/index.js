@@ -1,23 +1,22 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import Header from "@/src/components/Header";
-import ScrollBar from "@/src/components/ScrollBar";
-import About from "@/src/components/sections/About";
+import styles from '../styles/Home.module.css'
+import Header from "../src/components/Header";
+import ScrollBar from "../src/components/ScrollBar";
+import About from "../src/components/sections/About";
 // import Blog from "@/src/components/sections/Blog";
 // import Clients from "@/src/components/sections/Clients";
 // import Contact from "@/src/components/sections/Contact";
-import Copyright from "@/src/components/sections/Copyright";
+import Copyright from "../src/components/sections/Copyright";
 // import Facts from "@/src/components/sections/Facts";
-import Home from "@/src/components/sections/Home";
-import Portfolio from "@/src/components/sections/Portfolio";
-import Testimonials from "@/src/components/sections/Testimonials";
-import Separator from "@/src/components/Separator";
-import { jqueryFuntion } from "@/src/utilits";
-import { Fragment, useEffect } from "react";
-import styles from '@/styles/Home.module.css'
+import Home from "../src/components/sections/Home";
+import Portfolio from "../src/components/sections/Portfolio";
+import Testimonials from "../src/components/sections/Testimonials";
+import Separator from "../src/components/Separator";
+import { jqueryFuntion } from "../src/utilits";
 
-const inter = Inter({ subsets: ['latin'] })
+import { Fragment, useEffect } from "react";
+
 const Index = () => {
   useEffect(() => {
     jqueryFuntion();
