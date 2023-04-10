@@ -11,7 +11,7 @@ import Copyright from "@/src/components/sections/Copyright";
 // import Facts from "@/src/components/sections/Facts";
 import Home from "@/src/components/sections/Home";
 import Portfolio from "@/src/components/sections/Portfolio";
-import Testimonials from "@/src/components/sections/Testimonials";
+// import Testimonials from "@/src/components/sections/Testimonials";
 import Separator from "@/src/components/Separator";
 import { jqueryFuntion } from "@/src/utilits";
 
